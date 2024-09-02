@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: NewAmsterdam-Regular;
+    src:url(./fonts/NewAmsterdam-Regular.ttf)
+}
+
+body{
+    background: linear-gradient(264deg, rgb(193, 205, 236), rgb(177, 130, 211));
+    padding: 40px 80px;
+}
+
+.menu-continer{
+    background: rgb(237, 237, 237);
+    border-radius: 30px;
+    height: auto;
+}
+
+.menu-head{
+    display: flex;
+    padding: 30px 70px;
+}
+
+.menu, .menu-button{
+    flex: 1;
+}
+
+.menu{
+    display: flex;
+    column-gap: 30px;
+}
+
+.logo{
+    text-decoration: none;
+    font-family: NewAmsterdam-Regular;
+    font-size: 3rem;
+    color: black;
+}
+
+.menu-items{
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.menu-items li{
+    list-style: none;
+}
+
+.menu-items li a{
+    text-decoration: none;
+    font-family: NewAmsterdam-Regular;
+    color: rgb(49, 52, 56);
+}
+
+.menu-button{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.menu-button .login{
+    text-decoration: none;
+    font-family: NewAmsterdam-Regular;
+    color: rgb(49, 52, 56);
+}
+
+.menu-button .sing{
+    text-decoration: none;
+    font-family: NewAmsterdam-Regular;
+    color: white;
+    background: rgb(49, 100, 244);
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+
+.body-main{
+    padding: 80px;
+    display: flex;
+}
+
+.contant, .img{
+    flex: 1;
+}
+
+.contant .title-1st{
+    font-family: NewAmsterdam-Regular;
+    color: gray;
+}
+
+.contant .title-2nd{
+    font-family: NewAmsterdam-Regular;
+    font-size: 10rem;
+}
+
+.contant .title-3rd{
+    font-family: NewAmsterdam-Regular;
+    padding-bottom: 50px;
+}
+
+.try{
+    font-family: NewAmsterdam-Regular;
+    background: rgb(49, 100, 244);
+    text-decoration: none;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+
+.how-work{
+    font-family: NewAmsterdam-Regular;
+    outline: 1px solid black;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+
+.img{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
